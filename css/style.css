@@ -116,13 +116,13 @@ main {
   color: var(--primary-dark-color);
 }
 
-.pet-grid {
+.Portfo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
-.pet-card {
+.Portfo-card {
   background-color: var(--light-bg-color);
   box-shadow: var(--card-shadow);
   border-radius: 12px;
@@ -130,12 +130,12 @@ main {
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
-.pet-card:hover {
+.Portfo-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.pet-card img {
+.Portfo-card img {
   height: 260px;
   width: 100%;
   object-fit: cover;
@@ -145,7 +145,7 @@ main {
   padding: 20px;
 }
 
-.pet-card h2 {
+.Portfo-card h2 {
   color: var(--primary-dark-color);
   margin-bottom: 4px;
 }
@@ -156,7 +156,7 @@ main {
   margin-bottom: 8px;
 }
 
-.pet-content a {
+.Portfo-content a {
   display: inline-block;
   margin-top: 8px;
   color: var(--primary-color);
@@ -164,7 +164,7 @@ main {
   text-decoration: none;
 }
 
-.pet-content a:hover {
+.Portfo-content a:hover {
   text-decoration: underline;
 }
 
