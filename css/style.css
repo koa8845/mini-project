@@ -46,7 +46,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-horizontal: 1rem;
+  padding-horizontal: 16px;
   width: 100%;
 }
 
@@ -62,12 +62,12 @@ body {
 
 .header-content {
   text-align: center;
-  padding-block: 2rem;
+  padding-block: 32px;
 }
 
 .header-title {
   color: var(--primary-color);
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(32px, 5vw, 48px);
 }
 
 .header-subtitle {
@@ -77,15 +77,15 @@ body {
 /* Navbar */
 nav {
   text-align: center;
-  padding: 1rem;
+  padding: 16px;
 }
 
 nav a {
   text-decoration: none;
   color: var(--nav-text-color);
   background: rgb(236, 235, 235);
-  padding: 0.65rem 1.2rem;
-  margin: 0.3rem;
+  padding: 10.4px 19.2px;
+  margin: 4.8px;
   border-radius: 8px;
   box-shadow: var(--card-shadow);
   display: inline-block;
@@ -107,25 +107,25 @@ nav a.active {
 /* Main Content */
 main {
   flex: 1;
-  padding-block: 1.5rem;
+  padding-block: 24px;
 }
 
 .page-title {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
   color: var(--primary-dark-color);
 }
 
 .pet-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 24px;
 }
 
 .pet-card {
   background-color: var(--light-bg-color);
   box-shadow: var(--card-shadow);
-  border-radius: 0.75rem;
+  border-radius: 12px;
   overflow: hidden;
   transition: transform 0.25s, box-shadow 0.25s;
 }
@@ -136,29 +136,29 @@ main {
 }
 
 .pet-card img {
-  height: 16.25rem;
+  height: 260px;
   width: 100%;
   object-fit: cover;
 }
 
 .pet-content {
-  padding: 1.25rem;
+  padding: 20px;
 }
 
 .pet-card h2 {
   color: var(--primary-dark-color);
-  margin-bottom: 0.25rem;
+  margin-bottom: 4px;
 }
 
 .breed {
   color: var(--sub-text-color);
   font-style: italic;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .pet-content a {
   display: inline-block;
-  margin-top: 0.5rem;
+  margin-top: 8px;
   color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
@@ -172,35 +172,35 @@ main {
 .info-section {
   background-color: var(--light-bg-color);
   box-shadow: var(--card-shadow);
-  border-radius: 0.75rem;
-  padding: 2.5rem 2rem;
-  margin-top: 2rem;
+  border-radius: 12px;
+  padding: 40px 32px;
+  margin-top: 32px;
 }
 
 .info-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
   color: var(--nav-text-color);
 }
 
 .info-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 24px;
 }
 
 .info-card {
-  padding: 1.5rem 1.25rem;
-  border-radius: 0.5rem;
+  padding: 24px 20px;
+  border-radius: 8px;
 }
 
 .info-card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
+  font-size: 17.6px;
+  margin-bottom: 12px;
 }
 
 .info-card p {
-  font-size: 0.9rem;
+  font-size: 14.4px;
   color: var(--sub-text-color);
 }
 
@@ -235,28 +235,4 @@ main {
 
 /* Footer */
 footer {
-  padding-block: 1.25rem;
-  background-color: var(--footer-bg-color);
-  text-align: center;
-  color: var(--light-text-color);
-  margin-top: 2.5rem;
-}
-
-/* Responsive Handling */
-@media (max-width: 900px) {
-  .info-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .pet-grid,
-  .info-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  nav a {
-    padding: 0.5rem 0.8rem;
-    font-size: 0.9rem;
-  }
-}
+  padding-block: 20
